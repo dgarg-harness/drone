@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dgarg_harness_drone_1700545790705-pr-trigger-input-set
+  identifier: Build_dgarg_harness_drone_1700545790705prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_dgarg_harness_drone_1700545790705
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
