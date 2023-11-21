@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dgarg_harness_drone_1700545790705-push-trigger-input-set
+  identifier: Build_dgarg_harness_drone_1700545790705pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_dgarg_harness_drone_1700545790705
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
